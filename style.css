@@ -1,0 +1,85 @@
+body{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+     background-color: #121212;
+     color: #ffffff;
+     
+}
+h1 {
+  font-family: 'Luckiest Guy', cursive;
+}
+
+.game-container{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    /* margin:auto; */
+   
+    
+
+}
+.btn{
+     height:200px;
+    width:200px;
+    border-radius:20%;
+    border:10px solid white;
+    margin:20px;
+    /* box-shadow:
+    0 8px 20px rgba(0, 0, 0, 0.35),
+    inset 0 4px 6px rgba(255, 255, 255, 0.25);
+  transition: all 0.15s ease; */
+  cursor:pointer;
+}
+
+ .footer {
+    color: #6b717f;
+    font-family: sans-serif;
+    font-size: 2rem;
+    
+  }
+.red{
+    background-color: #E53935;
+}
+.yellow{
+    background-color: #FFEB3B;
+}
+.green{
+    background-color: #4CAF50;
+}
+.purple{
+    background-color: #9C27B0;
+}
+.flash{
+     box-shadow: 0 0 20px 10px white; 
+    background-color: white ;
+    animation: flashAnim 0.25s ease;
+
+
+@keyframes flashAnim {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+    
+}
+.userflash{
+    box-shadow: 0 0 20px 10px grey; 
+    background-color: grey ;
+    @keyframes flashAnim {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+}
